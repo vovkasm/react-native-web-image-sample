@@ -1,3 +1,5 @@
 rootProject.name = 'RNWebImageSample'
 
 include ':app'
+include ':react-native-web-image'
+project(':react-native-web-image').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-web-image/android')
